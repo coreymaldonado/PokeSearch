@@ -66,7 +66,7 @@ nav {
 }
 
 section {
-    border: 2px solid rgb(135, 171,233);
+    border: 2px solid rgb(255, 255, 255);
     /* width: 400px; */
     height: 100px;
     border-radius: 7px;
@@ -207,6 +207,10 @@ section {
     
    
   }
+
+.center-bubble-single {
+    width: 306px;
+}
 
 .sprite {
 

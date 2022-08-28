@@ -118,7 +118,7 @@ async function getPokemon() {
         <i class="fa fa-hand-pointer-o" aria-hidden="true"></i>
         </span>
         <span class="flex">
-        <li class="center-bubble ${data.types[0].type.name}">${data.types[0].type.name}</li>
+        <li class="center-bubble center-bubble-single ${data.types[0].type.name}">${data.types[0].type.name}</li>
         </span>
         <span class="flex">
         <li class="bubble default">HP: ${data.stats[0].base_stat}</li>
