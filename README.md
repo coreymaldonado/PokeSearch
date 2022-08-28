@@ -5,7 +5,7 @@ A simple pokemon search app. It's one of my first Javscript applications built u
 
 **Tech used:** HTML, CSS, JavaScript
 
-It's a simple static HTML and CSS website, with a little bit of JS templating built in for the data (using string literals). I didn't use any official templating languages, engines, etc, just wanted to play around with Javascript on this project.
+It's a simple static HTML, CSS , and Bootstrap website, with a little bit of JS templating built in for the data (using string literals). I didn't use any official templating languages, engines, etc, just wanted to play around with Javascript on this project.
 
 ## Lessons Learned:
 
