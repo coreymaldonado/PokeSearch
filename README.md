@@ -15,12 +15,12 @@ It's one of my first projects using an API with Javascript, and I learned a lot.
 
 There are a handful of edge cases that I plan to fix, but if anybody wants to contribute to fixing these known issues, feel free to submit a pull request!
 
-Nidoran - Does not work in current implementation due to the way female and male are differentiated in the pokeapi database
-Mega Charizard - Does not work in current implementation due to the way pokemon X and pokemon Y are differentiated in the pokeapi database
-Mega Mewtwo - Does not work in current implementation due to the way pokemon X and pokemon Y are differentiated in the pokeapi database
-Mr. Mime, Mime Jr.  - Does not work in current implementation due to the way Mr. Mime and Mime Jr. (with the periods) are differentiated in the pokeapi database
-Porygonz, Porygon2 - Does not work in current implementation due to the way the hyphenated names are listed in the pokeapi database
-Hooh Ho-Oh - Does not work in current implementation due to the way the hyphenated name is listed in the pokeapi database
-Tapu koko, Tapu lele, Tapu bulu, Tapu fini - The different variations of this pokemon on the database need to written as a special edge case, which I've not completed
-Farfetch'd, Sirfetch'd - Does not work in current implementation due to the way the apostrophes are implemented in the pokeapi database
+Nidoran - Does not work in current implementation due to the way female and male are differentiated in the pokeapi database\
+Mega Charizard - Does not work in current implementation due to the way pokemon X and pokemon Y are differentiated in the pokeapi database\
+Mega Mewtwo - Does not work in current implementation due to the way pokemon X and pokemon Y are differentiated in the pokeapi database\
+Mr. Mime, Mime Jr.  - Does not work in current implementation due to the way Mr. Mime and Mime Jr. (with the periods) are differentiated in the pokeapi database\
+Porygonz, Porygon2 - Does not work in current implementation due to the way the hyphenated names are listed in the pokeapi database\
+Hooh Ho-Oh - Does not work in current implementation due to the way the hyphenated name is listed in the pokeapi database\
+Tapu koko, Tapu lele, Tapu bulu, Tapu fini - The different variations of this pokemon on the database need to written as a special edge case, which I've not completed\
+Farfetch'd, Sirfetch'd - Does not work in current implementation due to the way the apostrophes are implemented in the pokeapi database\
 
