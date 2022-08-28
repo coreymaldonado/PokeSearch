@@ -26,7 +26,7 @@ body {
 }
 
 .container {
-    width: 400px;
+    width: 360px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -73,7 +73,7 @@ section {
 }
 
 .data{
-    height: 500px;
+    height: 647px;
     border-top: none;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
