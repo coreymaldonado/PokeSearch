@@ -3,7 +3,7 @@ A simple pokemon search app. It's one of my first Javscript applications built u
 
 https://pokesearcher.netlify.app/
 
-![Pokesearch screencap](https://ibb.co/Zhkxv7m)
+![Pokesearch image](https://i.ibb.co/zS0ZCDJ/pokesearch.png)
 
 ## How It's Made:
 
