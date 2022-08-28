@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'PokemonSolid'; /*a name to be used later*/
+    src: url('PokemonSolid.ttf'); /*URL to font*/
+}
+
+
+html {
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+body {
+    font-size: 1.6rem;
+    background-image: url("giorgio-trovato-pokeballs.jpg");
+    background-repeat: no-repeat;
+    height: 957px;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=14473), auto;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(135,171,233, 0.75);
+    border-radius: 10px;
+    padding: 0px;
+}
+
+label {
+    padding-bottom: 20px;
+}
+
+button {
+    margin-top: 5px;
+    font-family: 'PokemonSolid';
+    letter-spacing: 1.5px;
+    background-color: rgb(254,186,1);
+    border-color: rgb(135,171,233);
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=14473), auto;
+}
+
+input {
+    background-color: rgb(254,186,1);
+    border-color: rgb(135,171,233);
+    text-align: center;
+}
+
+nav {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sidebyside{
+    display: inline;
+}
+
+section {
+    border: 1px solid rgb(51,75,145);
+    /* width: 400px; */
+    height: 100px;
+    border-radius: 7px;
+}
+
+.data{
+    height: 500px;
+    border-top: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.prompt{
+    border-bottom: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.bold {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.center-bubble {
+    color: white;
+    text-shadow: 1px 1px lightslategray;
+	min-width: 150px;
+    width: 150px;
+ 	height: 20px;
+	line-height: 4px;
+    margin-bottom: 2px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+.bubble {
+	position: relative;
+	display:inline-block;
+	min-width: 150px;
+    width: 150px;
+ 	height: 20px;
+	text-align: left;
+	line-height: 4px;
+    margin-bottom: 2px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+.sprite {
+
+}
+
+.default {
+    background-color: white;
+    border: 8px solid white;
+}
+
+.normal {
+    background-color: #A8A77A;
+    border: 8px solid #A8A77A;
+}
+
+.fire {
+    background-color: #EE8130;
+    border: 8px solid #EE8130;
+}
+
+.water {
+    background-color: #6390F0;
+    border: 8px solid #6390F0;
+}
+
+.electric {
+    background-color: #F7D02C;
+    border: 8px solid #F7D02C;
+}
+
+.grass {
+    background-color: #7AC74C;
+    border: 8px solid #7AC74C;
+}
+
+.ice {
+    background-color: #96D9D6;
+    border: 8px solid #96D9D6;
+}
+
+.fighting {
+    background-color: #C22E28;
+    border: 8px solid #C22E28;
+}
+
+.poison {
+    background-color: #A33EA1;
+    border: 8px solid #A33EA1;
+}
+
+.ground {
+    background-color: #E2BF65;
+    border: 8px solid #E2BF65;
+}
+
+.flying {
+    background-color: #A98FF3;
+    border: 8px solid #A98FF3;
+}
+
+.psychic {
+    background-color: #F95587;
+    border: 8px solid #F95587;
+}
+
+.bug {
+    background-color: #A6B91A;
+    border: 8px solid #A6B91A;
+}
+
+.rock {
+    background-color: #B6A136;
+    border: 8px solid #B6A136;
+}
+
+.ghost {
+    background-color: #735797;
+    border: 8px solid #735797;
+}
+
+.dragon {
+    background-color: #6F35FC;
+    border: 8px solid #6F35FC;
+}
+
+.dark {
+    background-color: #705746;
+    border: 8px solid #705746;
+}
+
+.steel {
+    background-color: #B7B7CE;
+    border: 8px solid #B7B7CE;
+}
+
+.fairy {
+    background-color: #D685AD;
+    border: 8px solid #D685AD;
+}
+
+div {
+    padding: 12px;
+    margin: 10px auto;
+}
+
+.section1 {
+    flex: 1;
+}
+
+.section2 {
+    flex: 1;
+}
+
+.section3 {
+    flex: 1;
+}
+
+li {
+    list-style: none;
+    margin-right: 4px;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* Phones */
+@media screen and (max-width: 480px) {
+    .ancillary {
+        display: none;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+/* Laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* Desktops */
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+}
+
+/* Oversized */
+@media (min-width: 1201px) {
+
+}
