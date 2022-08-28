@@ -94,7 +94,6 @@ async function getPokemon() {
         <li class="bubble default">Speed: ${data.stats[5].base_stat}</li>
         </span>
         `
-        addULli(`${data.types[1].type.name}`, `text-center ${data.types[1].type.name}`);
     } else {
         display.innerHTML = `
         <li class="bold">${pokeName}</li>
@@ -102,7 +101,9 @@ async function getPokemon() {
         <span class="flex">
         <i class="fa fa-hand-pointer-o" aria-hidden="true"></i>
         </span>
-        <span class="flex"><li class="center-bubble ${data.types[0].type.name}">${data.types[0].type.name}</li></span>
+        <span class="flex">
+        <li class="center-bubble ${data.types[0].type.name}">${data.types[0].type.name}</li>
+        </span>
         <span class="flex">
         <li class="bubble default">HP: ${data.stats[0].base_stat}</li>
         <li class="bubble default">Attack: ${data.stats[1].base_stat}</li>
