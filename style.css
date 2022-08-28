@@ -145,14 +145,14 @@ section {
     white-space: nowrap;
     width: 150px;
     text-align: left;
-  
+
     position: relative;
     border-radius: 100px;
     line-height: 1;
     overflow: hidden;
     padding: 0px 0px 0px 20px;
     text-overflow: ellipsis;
-      line-height: 1.25rem;
+      line-height: 1.35rem;
       color: #595959;
       
       word-break: break-word;
@@ -189,8 +189,8 @@ section {
     overflow: hidden;
     padding: 0px 0px 0px 0px;
     text-overflow: ellipsis;
-      line-height: 1.25rem;
-      color: #595959;
+      line-height: 1.35rem;
+      color: #ffffff;
       
       word-break: break-word;
   
