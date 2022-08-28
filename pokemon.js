@@ -75,8 +75,9 @@ async function getPokemon() {
         <li class="bold">${pokeName}</li>
         <li class="bold"><img class="sprite" src="${data.sprites.front_default}" alt="Sprite of ${data.name}" width="76" height="76"></li>
         <span class="flex">
-        <span class="flex">
         <i class="fa fa-hand-pointer-o" aria-hidden="true"></i>
+        </span>
+        <span class="flex">
         <li class="center-bubble ${data.types[0].type.name}">${data.types[0].type.name}</li>
         <li class="center-bubble ${data.types[1].type.name}">${data.types[1].type.name}</li>
         </span>
