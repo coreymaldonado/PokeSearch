@@ -9,7 +9,7 @@ It's a simple static HTML and CSS website, with a little bit of JS templating bu
 
 ## Lessons Learned:
 
-It's one of my first projects using an API with Javascript, and I learned a lot. The code is not pretty, and I might go back and clean it up later, but I like to look back at it and remind me of what a pain it was to fix when things go wrong, and it acts as a reminder of what I've learned since starting that project, and all the things that have made things easier for me.
+It's one of my first projects using an API with Javascript, and I learned a lot. The code is not pretty, and I might go back and clean it up later, but I like to look back at it and remind me of what a pain it was to fix when things went wrong, and it acts as a reminder of what I've learned since starting that project, and all the things that have made the process easier for me.
 
 ## Edge cases:
 
