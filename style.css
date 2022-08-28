@@ -21,7 +21,7 @@ body {
     font-size: 1.6rem;
     background-image: url("giorgio-trovato-pokeballs.jpg");
     background-repeat: no-repeat;
-    height: 957px;
+    max-height: 657px;
     cursor: url(http://www.rw-designer.com/cursor-extern.php?id=14473), auto;
 }
 
