@@ -1,3 +1,17 @@
+// Close keyboard after return on mobile devices
+const hideMobileKeyboardOnReturn = (keyboardEvent) => {
+    element.addEventListener('keyup', (keyboardEvent) => {
+        if (keyboardEvent.code === 'Enter') {
+            element.blur();
+        }
+    });
+};
+
+document.querySelementectorAll('[type=search]').forEach((element) => {
+    hideMobileKeyboardOnReturn(element);
+}); 
+
+// Pokemon type colors
 const colours = {
 	normal: '#A8A77A',
 	fire: '#EE8130',
